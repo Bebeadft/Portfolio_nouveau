@@ -1,5 +1,5 @@
 {
-    "homepage": "https://bebeadft.github.io/My_new_portfolio",
+    "homepage": "https://bebeadft.github.io/Portfolio_nouveau",
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -22,7 +22,6 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build && copy build\\index.html build\\404.html",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
