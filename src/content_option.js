@@ -12,7 +12,7 @@ const introdata = {
         third: " et mobile aussi",
     },
     description: "Etudiant fraichement diplômer d'un BTS en informatique développeur d'application, ravi d'être a votre service",
-    your_img_url: "/images/Snapchat-266426669.jpg",
+    your_img_url: process.env.PUBLIC_URL + "/images/nouveaufondecran.jpg",
 };
 
 const dataabout = {
@@ -25,19 +25,31 @@ const worktimeline = [{
         date: "Fevrier 2024",
     },
     {
-        jobtitle: "Informaticien",
-        where: "Koumassi Saint-Etienne",
-        date: "Mai-maintenant",
-    },
-    {
         jobtitle: "Freelance developpeur",
         where: "Koumassi sopim",
         date: "2024-maintenant",
     },
-    
+    {
+        jobtitle: "Développeur - Infographe",
+        where: "Koumassi Saint-Etienne",
+        date: "Mai-Septembre",
+    },
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "HTML",
+        value: 90,
+    },
+    {
+        name: "CSS",
+        value: 90,
+    },
+    {
+        name: "JAVASCRIPT",
+        value: 70,
+    },
+    {
         name: "JAVA UX/UI",
         value: 50,
     },
@@ -75,40 +87,45 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "/images/page jbc.png",
+        img: process.env.PUBLIC_URL + "/images/page jbc.png",
         description: "SITE WEB DE JEUNESSE BASKET CLUB",
         link: "#",
     },
     {
-        img: "/images/img app.png",
+        img: process.env.PUBLIC_URL + "/images/img app.png",
         description: "APP MOBILE POUR EQUIPE DE BASKET-BALL",
         link: "#",
     },
     {
-        img: "/images/img pro.png",
+        img: process.env.PUBLIC_URL + "/images/img pro.png",
         description: "ALTERNATIVE WHATAPP",
         link: "#",
     },
     {
-        img: "/images/Capture d’écran 2024-08-01 140957.png",
+        img: process.env.PUBLIC_URL + "/images/Capture d’écran 2024-08-01 140957.png",
         description: "APP WEB DE GESTION IMMOBILIERE",
         link: "#",
     },
     {
-        img: "/images/muscu app.png",
+        img: process.env.PUBLIC_URL + "/images/muscu app.PNG",
         description: "APP DE SUIVI SPORTIF PERSONNEL",
         link: "#",
     },
     {
-        img: "/images/ecommerce.png",
+        img: process.env.PUBLIC_URL + "/images/ecommerce.png",
         description: "UX/UI DE APP E-COMMERCE",
         link: "#",
     },
 
     {
-        img: "/images/instaabou.png",
+        img: process.env.PUBLIC_URL + "/images/instaabou.PNG",
         description: "RESEAUX SOCIAL INSTAABOU",
         link: "#",
+    },
+    {
+        img: process.env.PUBLIC_URL + "/images/capture.PNG",
+        description: "SITE WEB DE VENTE DE CACAO",
+        link: "https://www.mokuku-international.com/index.html",
     },
     
 ];

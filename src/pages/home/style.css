@@ -232,3 +232,36 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+@media (min-width: 1400px) {
+  .intro_sec {
+    height: 100vh;
+    min-height: 900px;
+    padding: 0 100px;
+  }
+
+  .intro_sec .intro {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro_sec .text h1 {
+    font-size: 48px;
+  }
+
+  .intro_sec .text h3 {
+    font-size: 20px;
+  }
+
+  .intro_sec .h_bg-image {
+    min-height: 900px;
+  }
+
+  .intro_sec .h_bg-image .block {
+    width: 300px;
+    height: 270px;
+    max-width: 280px;
+    left: -150px;
+    padding: 40px;
+  }
+}
